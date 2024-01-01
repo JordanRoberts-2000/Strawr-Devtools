@@ -6,17 +6,17 @@ const MainNavbar: Component<{}> = ({ }) => {
         <nav class="fixed bottom-4 w-[calc(100%-2rem)] left-1/2 -translate-x-1/2 h-[70px] bg-white/50 backdrop-blur-sm 
             rounded-xl customShadow">
             <ul class="flex gap-6">
-                <li>notes</li>
-                <li>images</li>
-                <li>fonts</li>
-                <li>svgs</li>
-                <li>todos</li>
-                <li>open project</li>
+                <li><a class="text-blue-600" href="/">notes</a></li>
+                <li><a class="text-blue-600" href="/components">components</a></li>
+                <li><a class="text-blue-600" href="/images">images</a></li>
+                <li><a class="text-blue-600" href="/fonts">fonts</a></li>
+                <li><a class="text-blue-600" href="/svgs">svgs</a></li>
+                <li><a class="text-blue-600" href="/todos">todos</a></li>
+                <li><a class="text-blue-600" href="/projects">projects</a></li>
                 <li>create new - configure template</li>
-                <li>components??</li>
                 <li>formbuilder?</li>
                 <li>api endpoint</li>
-                <li>settings</li>
+                <li><a class="text-blue-600" href="/settings">settings</a></li>
                 <li>dark mode toggle</li>
                 <li>open copyPaste window</li>
             </ul>
