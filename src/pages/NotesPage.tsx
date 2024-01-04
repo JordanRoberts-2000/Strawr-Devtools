@@ -4,7 +4,7 @@ import Tab from "../features/notes/tabs/Tab";
 const NotesPage: Component<{}> = ({ }) => {
     return (
         <div class="w-full h-screen flex">
-            <div class="w-[300px] h-full bg-yellow-200">
+            <div class="w-[300px] h-full bg-black text-white">
                 <ul>
                     <li>code</li>
                     <li>cycle through code?</li>
@@ -26,7 +26,7 @@ const NotesPage: Component<{}> = ({ }) => {
                     <li>mouse pad shortcut to go up/down folder??</li>
                 </ul>
             </div>
-            <div class="flex-1 flex">
+            <div class="flex-1 flex overflow-hidden">
                 <Tab/>
                 <Tab/>
                 <Tab/>
